@@ -5,6 +5,7 @@
 int main(void)
 {
 	probabilistic::BloomFilter filter(1'000'000, 0.01);
+	// probabilistic::BloomFilter filter(10, 0.01);
 
 	filter.insert("apple");
 	filter.insert("banana");
